@@ -1,0 +1,29 @@
+body {
+	background-color: #E8E8E8;
+}
+
+.main-contaner {
+	max-width: 1191px;
+	margin: 105px 107px 137px 141px;
+	border: 1px solid black;
+}
+
+.contaner-img {
+	max-width: 100%;  
+}
+
+.content {
+	
+}
+
+.title {
+	text-transform: uppercase;
+}
+
+.text {
+	
+}
+
+.img {
+	
+}

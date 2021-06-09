@@ -1,0 +1,136 @@
+@font-face {
+	font-family: MyriadProRegular;
+	src: local(MyriadProRegular), url('../fonts/MyriadProRegular.ttf');
+}
+
+body {
+	font-family: MyriadProRegular;
+	background-color: #E8E8E8;
+	color: #273D46;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+.main-contaner {
+	max-width: 1191px;
+	margin: 0 auto;
+}
+
+.contaner-img {
+	max-width: 100%;
+	background: url('../img/background_img.png') no-repeat;
+	margin-bottom: 107px; 
+}
+
+.title {
+	padding-top: 63px;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-align: center;
+	opacity: .65;
+}
+
+.text-top {
+	padding: 28px 200px 57px 206px;
+	font-size: 36px;
+	text-align: center;
+}
+
+.img {
+
+}
+
+.image {
+	border: 10px white solid;
+	box-shadow: 2px 2px 10px;
+	display: block;
+	margin: 0 auto;
+}
+
+.block-text {
+	margin: 87px 234px 62px 193px;
+}
+
+.text-content {
+	margin: 0;
+	padding: 0 0 58px 4px;
+	line-height: 1.5;
+	opacity: .8;
+	font-size: 24px;
+}
+
+.list {
+	list-style-type: none;
+	font-size: 20px;
+	font-family: Arial regular;
+}
+
+.list_item {
+	padding-left: 189px;
+	padding-right: 234px;
+}
+
+.list li:before {
+	content: '';
+	width: 25px;
+	height: 19px;
+	display: inline-block;
+	background: url('../img/checkicon.png');
+	margin-right: 9px;
+}
+
+.list li:first-child {
+	padding-bottom: 13px;
+}
+
+.list li:nth-child(2){
+	font-style: italic;
+	padding-bottom: 17px;
+}
+
+.list li:nth-child(3){
+	font-weight: 600;
+	padding-bottom: 16px;
+}
+
+.list li:last-child {
+	font-style: italic;
+	text-decoration: line-through;
+	opacity: .3;
+}
+
+.button {
+	width: 197px;
+	height: 42px;
+	background: #80b7b3;
+	border: 1px solid #80b7b3;
+	border-radius: 21px;
+	margin: 59px 804px 0 189px;
+}
+
+.text-button {
+	color: #FFF;
+	text-transform: uppercase;
+	padding-right: 10px;
+}
+
+.text-button:before {
+	content: '';
+	display: inline-block;
+	background: url('../img/shape.png');
+}
